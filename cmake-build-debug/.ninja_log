@@ -1,0 +1,13 @@
+# ninja log v6
+2	912	1726041271197834777	CMakeFiles/algo_programming_3.dir/part3.cpp.o	c54e157697e33aaa
+3	941	1726041271198761839	CMakeFiles/algo_programming_3.dir/part6.cpp.o	785f92627bef5e48
+5	182	1726043893206949222	CMakeFiles/algo_programming_3.dir/part_1.c.o	d4310a2eaf52ef5a
+2	898	1726041271198464346	CMakeFiles/algo_programming_3.dir/part5.cpp.o	7626e31c9c4b66a
+2	911	1726041271197963108	CMakeFiles/algo_programming_3.dir/part4.cpp.o	ae54a47ff0843418
+2	370	1726041271197653907	CMakeFiles/algo_programming_3.dir/part2.c.o	ed50a0dca44f90d8
+5	107	1726043921833903043	CMakeFiles/algo_programming_3.dir/part_2.c.o	bf580f0edf2480f8
+2	649	1726043860951220965	CMakeFiles/algo_programming_3.dir/part_6.cpp.o	80af8dc6c52fea98
+3	72	1726043982905053847	build.ninja	21ff3916fead539c
+1	646	1726043860951111092	CMakeFiles/algo_programming_3.dir/part_5.cpp.o	4c85a0e3b9f30c97
+1	648	1726043860950899014	CMakeFiles/algo_programming_3.dir/part_3.cpp.o	224fac3fdf409221
+1	664	1726043860951008761	CMakeFiles/algo_programming_3.dir/part_4.cpp.o	36c71ecf24e3d8a0
