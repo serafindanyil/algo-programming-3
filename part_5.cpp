@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <iostream>
 using namespace std;
+
 int main()
 {
     short x1 = 30, x2, x3;
@@ -23,10 +24,8 @@ int main()
     z3 = z2 + 1;
 
     printf("char value: %d %d %d\n", z1, z2, z3);
-
     v2 = v1 + 235;
     v3 = v2 + 1;
-
     printf("unsigned char value: %d %d %d\n", v1, v2, v3);
 
     system("pause");

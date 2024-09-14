@@ -5,6 +5,7 @@
 #define STR2 "learning how to "
 #define STR3 "\"Programm on C++\""
 #define STR4 "Алгоритми та структури даних Сиротюк"
+
 int main()
 {
     printf("|%s|\n", STR1);
@@ -13,7 +14,6 @@ int main()
     printf("|%20.5s|\n", STR1);
     printf("|%20.8s|\n", STR2);
     printf("|%-20.9s|\n", STR3);
-
     printf("|%s|\n", STR4);
     printf("|%-87.53s|\n", STR4);
     printf("|%70.18s|\n", STR4);
