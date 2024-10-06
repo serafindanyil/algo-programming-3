@@ -1,29 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    int a1 = 5;
-    int a2 = 13;
-
-    a2 -= a1 + 5; // 5 + 5 = 10 тоді a2 - 10 = 3
-
-    int b1 = a1 + (a2 * a2); // b1 = 5 + (3 * 3) = 5 + 9 = 14
-
-    int b2 = a1 > a2; // b2 = 1
-
-    int b3 = b2++; // b3 = 1, (++ змінює змінну на 1) b2 = 2
-
-    float f1 = 4.5;
-    float f2 = 1.8;
-
-    float r1 = f1 + f2 / 2; // r1 = f1 + (f2 / 2) буде r1 = 4.5 + (1.8 / 2) = 4.5 + 0.9 = 5.4
-
-    float r2 = (f1 > f2) ? f1 + 1.2 : f2 - 1.4;
-    // f1 > f2 (4.5 > 1.8), тому буде результат f1 + 1.2 -> r2 = 4.5 + 1.2 = 5.7
-
-    // Виведення результатів
-    printf("a1 = %d, a2 = %d\n", a1, a2);
-    printf("b1 = %d, b2 = %d, b3 = %d\n", b1, b2, b3);
-    printf("r1 = %.2f, r2 = %.2f\n", r1, r2);
-
+    puts("My first program\n"); // виведення повідомлення
+    puts("Serafin Danyil\n");
+    short f;
+    printf("short f = %u size of short=%ld \n", f, sizeof(f));
+    double d;
+    printf("double %lf size of double=%ld \n", d, sizeof(d));
+    long l;
+    printf("long %ld size of long=%ld \n", l, sizeof(l));
+    char s = 'D'; 
+    printf("Symbol %c =(%d)10S =(%#o) 8S ", s, s, s);
+    printf("=(%#x)16S size char=%ld bait\n", s, sizeof(s));
+    int a = 78; 
+    printf("a=%d size int=%ld bait\n", a, sizeof(a));
+    float b = 56.23;
+    printf("b=%f=%e size float=%ld bait\n", b, b, sizeof(b));
+    puts("\nPress Enter to continue...\n");
+    getchar();
     return 0;
 }
